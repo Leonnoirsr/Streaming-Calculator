@@ -17,7 +17,7 @@ h1 {
 
 h2 {
   color: white;
-  margin-top: 90px;
+  margin-top: 20px;
   font-family: 'Bebas Neue', cursive;
 }
 
@@ -27,7 +27,7 @@ h2 {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  height: 700px;
+  height: 800px;
   width: 450px;
   border-radius: 20px;
   background-color: #222940;
@@ -50,6 +50,7 @@ h2 {
   border-radius: 50px;
   text-align: center;
   color: #222940;
+  box-shadow: 0 3px 30px rgba(255, 255, 255, 0.219);;
 }
 
 
@@ -61,6 +62,7 @@ h2 {
 }
 
 #services {
+  /* margin-bottom: 130%; */
   height: 30px;
   width: 125px;
   border-radius: 50px;
@@ -76,20 +78,34 @@ button {
   height: 35px;
   width: 125px;
   margin: auto;
+  margin-top: 25px;
   border-radius: 50px;
   background-color: white;
   font-family: 'Roboto', sans-serif;
-  padding: 0;
+  box-shadow: 0 3px 30px rgba(255, 255, 255, 0.219);;
 
 }
 
 button:focus {
   outline: none;
+  
 }
 
 select {
   width: 400px;
   text-align-last: center;
   font-family: 'Roboto', sans-serif;
+  font-size: .95rem;
+  box-shadow: 0 3px 30px rgba(255, 255, 255, 0.219);
+  color: #222940;
+  appearance: none;
+  border: 0;
 }
 
+img {
+  margin: auto;
+  margin-bottom: 13%;
+  width: 90px;
+  max-height: 129.5px;
+  padding-top: 2%;
+}

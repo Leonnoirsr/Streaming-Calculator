@@ -2,6 +2,7 @@ const streamNum = document.getElementById('streams');
 const money = document.querySelector('h2');
 const calc = document.querySelector('button');
 
+
 const tidal = 0.01284;
 const appleMusic = 0.01;
 const spotify = 0.00437;
@@ -43,3 +44,28 @@ calc.addEventListener('click', function () {
 			break;
 	}
 });
+
+const imgRef = document.querySelector('select');
+
+imgRef.addEventListener('change',function (e) {
+	e.preventDefault();
+	const img = document.querySelector('img');
+	if (imgRef.value == 'tidal') {
+		img.src = "Assets/tidal.png"
+	} else if (imgRef.value == 'apple music') {
+		img.src = 'Assets/applemusic.png'
+	} else if (imgRef.value == 'spotify') {
+		img.src = "Assets/spotify.png"
+	} else if (imgRef.value == 'napster') {
+		img.src = "Assets/napster.png"
+	} else if (imgRef.value == 'deezer') {
+		img.src = "Assets/deezer.png"
+	} else if (imgRef.value == 'amazon') {
+		img.src = "Assets/amazon.png"
+	} else if (imgRef.value == 'youtube') {
+		img.src = "Assets/youtube.png"
+	} else if (imgRef.value == 'pandora') {
+		img.src = "Assets/pandora.png"
+	}
+})
+
