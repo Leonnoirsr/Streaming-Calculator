@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+  *{
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+                
+            }
+
+h1 {
+  text-align: center;
+  /*   text-decoration: underline; */
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: white;
+  margin-top: 90px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.outside-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  width: 450px;
+  border-radius: 20px;
+  background-color: #222940;
+  box-shadow: 10px 5px 5px rgba(117, 117, 117, 0.514);
+  margin: auto;
+  padding: 0, 0, 0px, 0;
+  line-height: 75px;
+}
+
+
+#streams-label {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  display: block;
+  margin: auto;
+}
+
+#streams {
+  height: 30px;
+  border-radius: 50px;
+  text-align: center;
+  color: #222940;
+}
+
+
+#streaming-service {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  display: block;
+  margin: auto;  
+}
+
+#services {
+  height: 30px;
+  width: 125px;
+  border-radius: 50px;
+  background-color: white;
+  text-align: center;
+  color: #222940;
+}
+#services:focus {
+  outline: none;
+}
+
+button {
+  height: 35px;
+  width: 125px;
+  margin: auto;
+  border-radius: 50px;
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+
+}
+
+button:focus {
+  outline: none;
+}
+
+select {
+  width: 400px;
+  text-align-last: center;
+  font-family: 'Roboto', sans-serif;
+}
+
